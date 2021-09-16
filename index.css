@@ -1,0 +1,72 @@
+li{
+	float: left;
+	padding: 30px;
+	list-style-type: none;
+	color: lime;
+}
+
+nav{
+	z-index: 999;
+	width: 100%;
+	background: #000000;
+	background-size: cover;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	font-weight: bold;
+	font-family: algerian;
+}
+
+.logo{
+	height: 80px;
+	width: 80px;
+	float: right;
+	padding-right: 45px;
+
+}
+
+.section1{
+	font-size: 30px;
+	padding-top: 150px;
+	background-size: cover;
+	padding-left: 150px;
+	background-image: url(images/Abri.jpg);
+	background-position: top center;
+	height: 400px;
+}
+
+.section1 p{
+	color: red;
+	padding-top: 150px;
+
+}
+
+/* footer section styling */
+
+    .fixed-footer{
+        bottom: 0;
+    }
+
+ .fixed-footer{
+        width: 100%;
+        height: 60px;
+        position: all;        
+        background: #333;
+        padding-bottom: 40px;
+        color: #fff;
+    }
+
+    .section2{
+    	background-color: grey;
+    }
+    .section2 p{
+    	color: lime;
+    	size: 35px;
+    }
+
+    .icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
